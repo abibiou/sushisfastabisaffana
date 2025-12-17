@@ -1,0 +1,56 @@
+body {
+  background-color: #F4F1E8 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.logosushis { 
+    height: 25px;
+    width: auto; 
+}
+
+.logo-img {
+  height: 40px;  
+  width: auto;
+}
+.navbar .nav-link {
+  color: #D89293;
+  font-size: 15px;
+}
+.navbar .nav-link:hover{ 
+    color: #b86b73; 
+}
+
+.navbar .nav-link.active { 
+  color: #b86b73 !important;
+   }
+
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 100s linear infinite;
+}
+.bandeausushisfast { width: 100%; 
+  overflow: hidden; 
+  border-top: 4px solid #D89293; 
+  background-color: #F4F1E8;
+   border-bottom: 4px solid #D89293;
+   padding: 15px 0;
+  }
+
+
+.scroll-text span {
+  color: #D89293;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%); 
+  }
+  100% {
+    transform: translateX(-40%); 
+  }
+}
