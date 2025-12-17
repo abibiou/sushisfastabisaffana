@@ -36,7 +36,7 @@ function CaliforniaSeulement() {
       <div className="row">
         {menus
           .filter(m =>
-            m.aliments?.map(a => a.nom).includes("California Saumon Avocat")
+            !m.aliments?.map(a => a.nom).includes("California Saumon Avocat")
           )
           .map(m => (
             <div className="col-12 col-sm-6 col-md-4" key={m.id}>
