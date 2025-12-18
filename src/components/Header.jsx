@@ -5,7 +5,7 @@ function MaNavbar() {
     return (
         <nav className="navbar navbar-expand-lg p-3 p-lg-1">
      <a className="navbar-brand mx-3" href="#">
-        <img src="/logo.jpg" className="logosushis" />
+        <img src="/logov3.jpg" className="logosushis" />
       </a>
 <button
   className="navbar-toggler"
