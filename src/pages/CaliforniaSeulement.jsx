@@ -33,14 +33,15 @@ function CaliforniaSeulement() {
             <div className="text-center mt-3">
                 <img src="/iconeflechedubas.jpg" className="img-fluid" style={{ maxWidth: "40px" }} />
             </div>
+            <div className="container-fluid px-5">
       <div className="row">
         {menus
           .filter(m =>
             !m.aliments?.map(a => a.nom).includes("California Saumon Avocat")
           )
           .map(m => (
-            <div className="col-12 col-sm-6 col-md-4 px-5" key={m.id}>
-              <div className="card border-0 rounded-0 position-relative p-0 mt-5 px-5" style={{ backgroundColor: "#F4F1E8" , cursor: "pointer" }}
+            <div className="col-12 col-sm-6 col-md-4" key={m.id}>
+              <div className="card border-0 rounded-0 position-relative p-0 mt-5" style={{ backgroundColor: "#F4F1E8" , cursor: "pointer" }}
                 onClick={() => navigate(`/menu/${m.id}`)}>
                 
                 <div style={{ backgroundColor: "#F0CECF" }}>
@@ -78,6 +79,7 @@ function CaliforniaSeulement() {
               </div>
             </div>
           ))}
+      </div>
       </div>
     </div>
   );
