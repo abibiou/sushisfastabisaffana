@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function MonFooter() {
     return (
@@ -6,13 +7,30 @@ function MonFooter() {
       style={{ backgroundColor: "#F0CECF", color: "#D89293"}}>
         <div className="container text-center">
           <p className="mb-1">© sushiFast | Tous droits réservés.</p>
-          <div>
-            <a href="Accueil" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>Accueil</a>
-            <a href="Saveurs" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>Nos saveurs</a>
-            <a href="" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>Avocat ou coriandre</a>
-            <a href="#" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>California Saumon Avocat</a>
-            <a href="#" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>Menu pièces inf à 13</a>
-            <a href="#" className="me-3 text-decoration-none" style={{ color: "#D89293"}}>Menu cher ou non</a>
+          <div className="d-flex flex-wrap justify-content-center gap-4 py-2">
+          <NavLink to="/" className="text-decoration-none" style={{ color: "#D89293" }}>
+            Accueil
+          </NavLink>
+
+          <NavLink to="/saveurs" className="text-decoration-none" style={{ color: "#D89293" }}>
+            Nos saveurs
+          </NavLink>
+
+          <NavLink to="/avocatcoriandre" className="text-decoration-none" style={{ color: "#D89293" }}>
+            Avocat ou coriandre
+          </NavLink>
+
+          <NavLink to="/californiaseulement" className="text-decoration-none" style={{ color: "#D89293" }}>
+            California Saumon Avocat
+          </NavLink>
+
+          <NavLink to="/menusinf" className="text-decoration-none" style={{ color: "#D89293" }}>
+            Moins de 13 Pièces
+          </NavLink>
+
+          <NavLink to="/moinspluscher" className="text-decoration-none" style={{ color: "#D89293" }}>
+            Menu + / -
+          </NavLink>
           </div>
         </div>
       </footer>
