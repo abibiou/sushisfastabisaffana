@@ -54,3 +54,13 @@ body {
     transform: translateX(-40%); 
   }
 }
+.btn-retour {
+ color: #D89293 !important;
+ border: 1px solid #D89293 !important;
+ text-transform: uppercase;
+ transition: all 0.3s ease !important;
+}
+.btn-retour:hover {
+ background-color: #D89293 !important;
+ color: #F4F1E8 !important;
+}
