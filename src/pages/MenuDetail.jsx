@@ -64,8 +64,8 @@ function MenuDetail() {
        </div>
 
 
-       <div className="text-end mt-4">
-         <button className="btn" onClick={() => navigate(-1)}>
+       <div className="text-end mt-3">
+         <button className="btn btn-retour px-3 py-2 rounded-3" onClick={() => navigate(-1)}>
            Retour
          </button>
        </div>
