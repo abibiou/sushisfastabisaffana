@@ -26,9 +26,9 @@ function Saveurs() {
                 </div>
             </div>
             <div className="bandeausushisfast mt-5 mb-5">
-                <div className="scroll-text">
-                    <span className='fs-3'>SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST ★ SUSHISFAST</span>
-                </div>
+               <div className="scroll-text">
+          <span className='fs-3'>SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST ★ SUSHIFAST</span>
+        </div>
             </div>
             <div className="container-fluid mt-5">
                 <h1 className="mt-5 fw-bold text-center" style={{ color: "#D89293" }}>TOUTES LES SAVEURS</h1>
